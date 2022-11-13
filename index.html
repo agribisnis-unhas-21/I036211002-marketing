@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icon css-->
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+
+    <title>UBX MANAGEMENT</title>
+
+</head>
+<body>
+    <header>
+        <div class="navbar-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <!-- <i class="fas fa-film mr-2"></i> -->
+                        <a href="#"><img src="img/CTL/logo.png" class="logo">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="nav-active-1" class="nav-link nav-link-1 active" aria-current="page" href="index.html" onclick="navMenu('#nav-active-1')">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-active-2" class="nav-link nav-link-2" href="#diskon-link" onclick="navMenu('#nav-active-2')">Katalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-active-3" class="nav-link nav-link-3" href="#shop-link" onclick="navMenu('#nav-active-3')">Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-active-4" class="nav-link nav-link-4" href="#search-link" onclick="navMenu('#nav-active-4')">Cari</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-active-4" class="nav-link nav-link-4" href="https://agribisnis-unhas-21.github.io/I036211002-CV/" target="_blank" onclick="navMenu('#nav-active-4')">About</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- menu diskon -->
+        <section>
+            <div class="slider-frame">
+                <div class="slider-images">
+                    <div class="img-container">
+                        <div class="img-content-discount">
+                            <!-- <h1>ONLY THIS WEEK</h1> -->
+                        </div>  
+                        
+                        <div class="img-content">
+                            <img src="img/hl2.png" class="img-fluid" alt="Responsive image">
+                        </div>
+
+                    </div>
+        
+                    <div class="img-container">
+                        <div class="img-content-discount">    
+                            <!-- <h1>ONLY THIS WEEK</h1> -->
+                        </div>
+
+                        <div class="img-content">
+                            <img src="img/hl3.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+
+                    <div class="img-container">
+                        <div class="img-content-discount">   
+                            <!-- <h1>ONLY THIS WEEK</h1> -->
+                        </div>
+                        
+                        <div class="img-content">
+                            <img src="img/hl4.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- jombo images -->
+        <section id="diskon-link"> 
+            <div class="img-jombo" id="img-jombo-link">
+                <div class="row mb-4 img-jombo-title">
+                    <h2 class="col-12 tm-text-primary">Only This Mounth</h2>
+                </div>
+                <div class="row tm-mb-90">
+
+                    <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
+                        <div class="jumbo-container">
+                            <img src="img/CTL/ctl24.png" class="img-fluid img-jumbo">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 product-container">
+                        <div class="tm-bg-gray tm-img-details">
+                            
+                            <div class="mb-8">
+                                <h3 class="tm-text-primary mb-2">Keterangan</h3>
+                                <p class="text-white info-product">All item got discount 30% OFF</p>
+
+                                <table class="text-white table-info">
+                                    <tr>
+                                        <td>Nama Product</td>
+                                        <td>:</td>
+                                        <td class="nama-product">-</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Harga Product</td>
+                                        <td>:</td>
+                                        <td class="harga-product">-</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ready</td>
+                                        <td>:</td>
+                                        <td class="n-unit">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Berat Product</td>
+                                        <td>:</td>
+                                        <td class="size-product">- </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="mb-2">
+                                <br><br>
+                                <samp class="tm-text-primary tx fn-sz-20">Keterangan Pengiriman:</samp>
+                                <p class="tx-justify fn-sz-14">
+                                    Untuk dalam area Provisi Sulawesi Selatan, pesanan akan tiba paling lambat tiga hari. Jika diluar Provisi Sulawesi Selatan, pesanan akan tiba paling lambat satu minggu setelah barang dipesan.
+                                </p>
+                            </div>
+
+                             <!-- Tombol Pesan -->
+                            <div class="text-center mb-3">
+                            <!-- Spinner Tombol -->
+                            <div class="spinner">
+                                <input type="button" class="prev" value="-">
+                                <input type="number" class="number-spinner" value=1>
+                                <input type="button" class="next" value="+">
+                            </div>
+
+                            <div class="text-center mb-5 cont-buy">
+                                <input type="button" class="btn-buy" value="Pesan">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- search menu -->
+        <section id="search-link">
+            <div class="search-content tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll">
+                <form class="d-flex tm-search-form">
+                    <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success tm-search-btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        
+
+        <!-- menu shop -->
+        <section id="shop-link">
+            <div class="container-fluid tm-container-content tm-mt-60">
+                <div class="row mb-4">
+                    <h2 class="col-6 tm-text-primary">
+                        Pilihan yang tersedia:
+                    </h2>
+                    <div class="col-6 d-flex justify-content-end align-items-center">
+                        <form action="" class="tm-text-primary">
+                            Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 200
+                        </form>
+                    </div>
+                </div>
+                <!-- PRODUK 1 -->
+                <div class="row tm-mb-90 tm-gallery">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 ">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl1.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>TENDA SARNAVIL</h2>
+                                <a src="img/CTL/ctl2.png" href="#img-jombo-link" onclick="get_pic('img/img-01.png',
+
+                                    // info product
+                                    'Tenda Kerucut',
+
+                                    //nama product
+                                    'Ukuran 5x5m',
+
+                                    // harga
+                                    'Rp. 500.000',
+
+                                    // ready terjual
+                                    '1',
+
+                                    // berat barang
+                                    '200 kg'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 500.000
+                            </span>
+                            <span>
+                                Ready: 1 unit
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- PRODUK 2 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl2.png" alt="Image" class="img-fluid thumb">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>Web Builder</h2>
+                                <a src="img/CTL/ctl2.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl2.png', 
+
+                                    // info product
+                                    'Website',
+
+                                    //nama product
+                                    'Build your Web',
+
+                                    // harga
+                                    'Rp. 2.500.000',
+
+                                    // ready terjual
+                                    '2',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 2.500.000
+                            </span>
+                            <span>
+                                Ready: Limited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- PRODUK 3 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl15.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>JASA DESIGN</h2>
+                                    <a src="img/CTL/ctl15.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl15.png', 
+
+                                    // info product
+                                    'DESIGN',
+
+                                    //nama product
+                                    'DESIGN GRAPHIC / PHOTO / VIDEO',
+
+                                    // harga
+                                    'Rp. 100.000',
+
+                                    // ready terjual
+                                    '3',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 100.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl.17.png" alt="Image" class="img-fluid">
+                            
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>WEDDING ORGANIZE</h2>
+                                <a src="img/CTL/ctl.17.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl.17.png', 
+
+
+                                    // info product
+                                    'ORGANIZER',
+
+                                    //nama product
+                                    'WEDDING ORGANIZER',
+
+                                    // harga
+                                    'Rp. 15.000.000',
+
+                                    // ready terjual
+                                    '56',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+                            
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 15.000.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    
+       
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl18.png" alt="Image" class="img-fluid">
+                            
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>EVENT ORGANIZE</h2>
+                                <a src="img/CTL/ctl18.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl18.png', 
+
+                                    // info product
+                                    'EVENT',
+
+                                    //nama product
+                                    'EVENT ORGANIZER',
+
+                                    // harga
+                                    'Rp. 15.000.000',
+
+                                    // ready terjual
+                                    '12',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 15.000.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl20.png" alt="Image" class="img-fluid">
+                            
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>ARCHITECTURE</h2>
+                                <a src="img/CTL/ctl20.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl20.png', 
+
+                                    // info product
+                                    'OWN YOUR WITH US',
+
+                                    //nama product
+                                    'ARCHITECTURE',
+
+                                    // harga
+                                    'Rp. 10.000.000',
+
+                                    // ready terjual
+                                    '3',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 13.00.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl21.png" alt="Image" class="img-fluid">
+                            
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>PROGRAMMING</h2>
+                                <a src="img/CTL/ctl21.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl21.png', 
+
+                                    // info product
+                                    'JASA CODING',
+
+                                    //nama product
+                                    'PROGRAMMING',
+
+                                    // harga
+                                    'Rp. 200.000',
+
+                                    // ready terjual
+                                    '14',
+
+                                    // berat barang
+                                    '-'
+                            );">View more</a>
+                            </figcaption>
+                            
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 200.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl22.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>CATERING</h2>
+                                <a src="img/CTL/ctl22.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl22.png', 
+
+                                    // info product
+                                    'CATERING SNACK / FOOD BOX',
+
+                                    //nama product
+                                    'CATERING',
+
+                                    // harga
+                                    'Rp. 3.000',
+
+                                    // ready terjual
+                                    '46',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 3.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl3.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>PREMIUM APPS</h2>
+                                <a src="img/CTL/ctl3.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl3.png', 
+
+                                    // info product
+                                    'PREMIUM APPS',
+
+                                    //nama product
+                                    'PREMIUM / PRO APPS',
+
+                                    // harga
+                                    'Rp. 5.000',
+
+                                    // ready terjual
+                                    '246',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 5.000
+                            </span>
+                            <span>
+                                Ready: 246 unit
+                            </span>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl9.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>TOP UP</h2>
+                                <a src="img/CTL/ctl9.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl9.png', 
+
+                                    // info product
+                                    'TOP UP',
+
+                                    //nama product
+                                    'DIAMOND FREE FIRE ',
+
+                                    // harga
+                                    'Mulai Rp.15.000',
+
+                                    // ready terjual
+                                    '134',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 15.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl10.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>TOP UP</h2>
+                                <a src="img/CTL/ctl10.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl10.png', 
+
+                                    // info product
+                                    'TOP UP',
+
+                                    //nama product
+                                    'DIAMOND MOBILE LEGEND',
+
+                                    // harga
+                                    'Mulai Rp. 15.000',
+
+                                    // ready terjual
+                                    '125',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 15.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl11.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>TOP UP</h2>
+                                <a src="img/CTL/ctl11.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl11.png', 
+
+                                    // info product
+                                    'TOP UP',
+
+                                    //nama product
+                                    'CANDY SAUSAGE MAN',
+
+                                    // harga
+                                    'Mulai Rp.15.000',
+
+                                    // ready terjual
+                                    '23',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 15.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl12.png" alt="Image" class="img-fluid">
+
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>TOP UP</h2>
+                                <a src="img/CTL/ctl12.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl12.png', 
+
+                                    // info product
+                                    'TOP UP',
+
+                                    //nama product
+                                    'DIAMOND GENSHIN IMPACT',
+
+                                    // harga
+                                    'Mulai Rp.15.000',
+
+                                    // ready terjual
+                                    '12',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 15.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl13.png" alt="Image" class="img-fluid">
+                            
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>TOP UP</h2>
+                                <a src="img/CTL/ctl13.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl13.png', 
+
+                                    // info product
+                                    'TOP UP',
+
+                                    //nama product
+                                    'UC PUBGM',
+
+                                    // harga
+                                    'Mulai Rp.15.000',
+
+                                    // ready terjual
+                                    '211',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 15.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl14.png" alt="Image" class="img-fluid">
+                            
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>TOP UP</h2>
+                                <a src="img/CTL/ctl14.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl14.png', 
+
+                                    // info product
+                                    'TOP UP',
+
+                                    //nama product
+                                    'VP VALORANT',
+
+                                    // harga
+                                    'Mulai Rp.50.000',
+
+                                    // ready terjual
+                                    '32',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 50.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>
+
+
+        
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure class="effect-ming tm-imgas-item">
+                            <img src="img/CTL/ctl23.png" alt="Image" class="img-fluid">
+                            
+                            <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2>CONSIGN</h2>
+                                <a src="img/CTL/ctl23.png" href="#img-jombo-link" onclick="get_pic('img/CTL/ctl23.png', 
+
+                                    // info product
+                                    'ANDA MAU JUAL AKUN TIDAK LAKU-LAKU?? UBX_STORE SOLUSINYA',
+
+                                    //nama product
+                                    'CONSIGNMENT',
+
+                                    // harga
+                                    'Rp. 20.000',
+
+                                    // ready terjual
+                                    '33',
+
+                                    // berat barang
+                                    '-'
+                                );">View more</a>
+                            </figcaption>
+                        </figure>
+
+                        <div class="d-flex justify-content-between tm-text-gray">
+                            <span class="tm-text-primary">
+                                Rp. 20.000
+                            </span>
+                            <span>
+                                Ready: Unlimited
+                            </span>
+                        </div>
+
+                    </div>         
+                </div> 
+                <!-- row -->
+
+                <div class="row tm-mb-90">
+                    <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
+                        <a href="javascript:void(0);" class="btn btn-primary tm-btn-prev mb-2 disabled">Previous</a>
+                        <div class="tm-paging d-flex">
+                            <a href="javascript:void(0);" class="active tm-paging-link">1</a>
+                            <a href="javascript:void(0);" class="tm-paging-link">2</a>
+                            <a href="javascript:void(0);" class="tm-paging-link">3</a>
+                            <a href="javascript:void(0);" class="tm-paging-link">4</a>
+                        </div>
+                        <a href="javascript:void(0);" class="btn btn-primary tm-btn-next">Next Page</a>
+                    </div>            
+                </div>
+            </div> <!-- container-fluid, tm-container-content -->
+        </section>
+
+    </main>
+    
+    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+        <div class="container-fluid tm-container-small">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">UBX MANAGEMENT</h3>
+                    <ul>
+                        <li>Owner : Aswangga Satria</li>
+                        <li>Alamat: Jl.Abdul Muis, Watansoppeng</li>
+                        <li>whatsapp: +62 853-4254-4064</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">Follow Us</h3>
+                    <ul class="tm-footer-links pl-0">
+                        <li><a href="https://joy.link/urbexgaming" target="_blank">Advertise</a></li>
+                        <li><a href="https://sociabuzz.com/urbexgaming/tribe" target="_blank">Support</a></li>
+                        <li><a href="https://linkr.bio/ubxstore" target="_blank">Our Company</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=6282213240180&text=Hai...%20Saya%20salah%20satu%20pengunjung%20website%20Anda.%20Saya%20tertarik%20dan%20ingin%20membeli%20%20*-*%20(-)%20sebanyak%20*1*.%20Terima%20kasih%20dan%20Semoga%20sukses%20selalu." target="_blank">Contact</a></li>
+                        <li><a href="cv/index.html" target="_blank">Hired Me</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
+                        <li class="mb-2"><a href="https://www.youtube.com/c/UrbexGaming" target="_blank" ><i class="fab fa-youtube"></i></a></li>
+                        <li class="mb-2"><a href="https://www.tiktok.com/@wanggstr" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                        <li class="mb-2"><a href="https://www.instagram.com/urbex_gaming/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="mb-2"><a href="https://discord.gg/FcQ4Ak6Qew" target="_blank"><i class="fab fa-discord"></i></a></li>
+                    </ul>
+                    <a href="#" class="tm-text-gray text-right d-block mb-2">Terms of Use</a>
+                    <a href="#" class="tm-text-gray text-right d-block">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3 text-dark">
+                    Copyright 2022 UBX
+                </div>
+                <div class="col-lg-4 col-md-5 col-12 px-5 text-dark">
+                    Designed by <a href="https://www.facebook.com/urbex.gaming.319" class="tm-text-gray-dark" rel="sponsored" target="_blank">@UBX MANAGEMENT</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/plugins.js"></script>
+</body>
+</html>
